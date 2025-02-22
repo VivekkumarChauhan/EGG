@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = joblib.load('model_rf.pkl')
+model = joblib.load('model_rf1.pkl')
 
 prediction_map = {0: 'Healthy', 1: 'Epilepsy', 2: 'Alzheimer\'s'}
 
